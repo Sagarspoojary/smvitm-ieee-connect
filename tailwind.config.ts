@@ -47,6 +47,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // IEEE Brand Colors
+        ieee: {
+          blue: "hsl(var(--ieee-blue))",
+          accent: "hsl(var(--ieee-accent))",
+          "light-blue": "hsl(var(--ieee-light-blue))",
+          white: "hsl(var(--ieee-white))",
+          gray: "hsl(var(--ieee-gray))",
+          "dark-gray": "hsl(var(--ieee-dark-gray))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +66,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        sans: ["Open Sans", "sans-serif"],
+        display: ["Montserrat", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
